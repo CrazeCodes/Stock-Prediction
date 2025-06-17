@@ -12,7 +12,7 @@ This project presents an interactive, AI-powered dashboard that predicts the sto
 - 🧠 **Dynamic Feature-Based Method** using advanced ML regression models.
 - 📉 **Momentum-Based Method** using classical statistical trends.
 - 📊 **Interactive Prediction Charts** for clear trend visualization.
-- 📅 7-Day Forecast for near-future stock movement.
+- 📅   5 - 14 Days Forecast for near-future stock movement.
 - 📌 **Bearish/Bullish Indicators** based on predicted trends.
 
 ---
