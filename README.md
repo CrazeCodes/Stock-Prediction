@@ -1,28 +1,68 @@
-# 📈 NSE Stock Price Prediction Dashboard
+# 📊 NSE Stock Prediction Dashboard
 
-🚀 **Live Demo**: [nsestockprediction.netlify.app](https://nsestockprediction.netlify.app/)
+🚀 **Live Preview**: [nsestockprediction.netlify.app](https://nsestockprediction.netlify.app/)
 
-This project presents an interactive, AI-powered dashboard that predicts the stock prices of companies listed on the **National Stock Exchange (NSE) of India**. It uses **machine learning** and **time series analysis** techniques with dual analytical approaches—**Dynamic Feature-Based** and **Momentum-Based**—to help traders and investors make informed decisions.
+This is a fully client-side, AI-inspired **stock prediction dashboard** for select **NSE-listed companies**. It uses simulated market data and JavaScript-based predictive logic (technical analysis) to estimate short-term stock price movements, presented with beautiful visualizations.
 
 ---
 
-## 🔍 Features
+## 📌 Key Features
 
-- 🔮 **Real-time Price Predictions** for selected stocks.
-- 🧠 **Dynamic Feature-Based Method** using advanced ML regression models.
-- 📉 **Momentum-Based Method** using classical statistical trends.
-- 📊 **Interactive Prediction Charts** for clear trend visualization.
-- 📅   5 - 14 Days Forecast for near-future stock movement.
-- 📌 **Bearish/Bullish Indicators** based on predicted trends.
+- 📈 **Dual Prediction Models**:
+  - **Dynamic Feature Method** (based on technical indicators)
+  - **Momentum-Based Method** (based on recent price movement trends)
+  
+- 📊 **Real-time 7-Day Price Forecast**
+- 🧠 Embedded prediction logic with Moving Averages, RSI, Volatility
+- 🔴 **Bearish/Bullish Market Signals**
+- 📉 Interactive Chart.js graphs for historical and predicted prices
+- ⚙️ Completely **offline and frontend-based** (no server or backend required)
+
+---
+
+## 💡 How It Works
+
+- The dashboard generates **mock historical stock data** for select NSE stocks.
+- It calculates technical indicators:
+  - MA5, MA10, MA20
+  - RSI (Relative Strength Index)
+  - Volatility
+- Two prediction models are applied:
+  - **Dynamic Feature Model**: Uses a signal formula combining moving averages, RSI signals, and random volatility noise.
+  - **Momentum Model**: Uses recent return trends to project forward movement.
+- Predictions are plotted alongside historical trends using **Chart.js**.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (with Chart.js)
-- **Backend/Modeling**: Python, Scikit-learn, Pandas, NumPy
-- **ML Models**: Linear Regression, Random Forest, Gradient Boosting
-- **Deployment**: Netlify (for dashboard), Streamlit (for development testing)
-- **Data Source**: NSE Historical Stock Price Yfinance. 
+| Technology    | Purpose                     |
+|---------------|------------------------------|
+| **HTML/CSS**  | Web layout and styling       |
+| **JavaScript**| Data simulation & prediction |
+| **Chart.js**  | Graphing library for charts  |
+| **Netlify**   | Hosting platform             |
 
 ---
+
+## 🧪 How to Run This Project
+
+### ✅ Option 1: Instant Online Run
+
+Use these online editors:
+
+- [CodePen](https://codepen.io/)
+- [JSFiddle](https://jsfiddle.net/)
+- [Replit](https://replit.com/)
+- [CodeSandbox](https://codesandbox.io/)
+
+Just paste the full HTML code and hit "Run".
+
+---
+
+### ✅ Option 2: Run Locally
+
+1. Copy and save the code as:
+
+   ```bash
+   stock-dashboard.html
